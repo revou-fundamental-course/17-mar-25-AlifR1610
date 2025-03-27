@@ -1,0 +1,61 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    place-items: center;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calculator {
+    display: none; /* Sembunyikan hingga tombol diklik */
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.section-image1 {
+    background-image: url(../assets/persegi.png);
+    width: 200px;
+    height: 150px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-image2 {
+    background-image: url(../assets/persegipanjang.png);
+    width: 200px;
+    height: 70px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+
